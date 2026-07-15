@@ -44,7 +44,7 @@ export default function Navbar() {
         scrolled ? 'bg-[var(--bg)]/90 backdrop-blur border-b border-[var(--surface-line)]' : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-8 py-4" style={{ marginLeft: '20px' }}>
+      <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-8 py-4" style={{ marginLeft: '0px' }}>
         <a href="#top" className="flex items-center gap-3 font-mono text-sm tracking-wide text-[var(--text)]">
           <img
             src="/mamy.jpg"
@@ -57,7 +57,7 @@ export default function Navbar() {
               border: '1px solid var(--accent-dim)',
             }}
           />
-          <span className="text-[var(--accent)]" style={{ fontSize: '18px', fontWeight: 'bold' }}>&nbsp;RAZAFIMAHATRADRAIBE Mamy Ernest</span>
+          <span className="text-[var(--accent)]" style={{ fontSize: '18px', fontWeight: 'bold' }}>RAZAFIMAHATRADRAIBE Mamy Ernest</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8 font-mono text-[13px] text-[var(--text-muted)]" style={{ marginLeft: '50px' }}>
