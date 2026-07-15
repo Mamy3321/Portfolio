@@ -44,7 +44,7 @@ export default function Navbar() {
         scrolled ? 'bg-[var(--bg)]/90 backdrop-blur border-b border-[var(--surface-line)]' : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-8 py-4" style={{ marginLeft: '0px' }}>
+      <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-8 py-4" style={{ marginLeft: '-10px' }}>
         <a href="#top" className="flex items-center gap-3 font-mono text-sm tracking-wide text-[var(--text)]">
           <img
             src="/mamy.jpg"
