@@ -44,7 +44,7 @@ export default function Navbar() {
         scrolled ? 'bg-[var(--bg)]/90 backdrop-blur border-b border-[var(--surface-line)]' : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-8 py-4" style={{ marginLeft: '80px' }}>
+      <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 md:px-8 py-4" style={{ marginLeft: '20px' }}>
         <a href="#top" className="flex items-center gap-3 font-mono text-sm tracking-wide text-[var(--text)]">
           <img
             src="/mamy.jpg"
@@ -78,7 +78,7 @@ export default function Navbar() {
         
           href="#contact"
           className="hidden md:inline-block font-mono text-[13px] border border-[var(--accent-dim)] text-[var(--accent)] px-4 py-2 rounded-sm hover:bg-[var(--accent)] hover:text-[var(--bg)] transition-colors"
-          style={{ marginRight: '-120px' }}
+          style={{ marginRight: '-230px' }}
         >
           Discutons
         </a>
